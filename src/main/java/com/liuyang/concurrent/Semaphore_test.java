@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
 
 public class Semaphore_test {
 
@@ -46,4 +47,29 @@ public class Semaphore_test {
         new CountDownLatch(1).await();
 
     }
+
+    @Test
+    public void test2() throws InterruptedException {
+        Semaphore s = new Semaphore(1);
+
+        s.acquire();
+
+        Thread t2 = new Thread(() -> {
+            try {
+                boolean b = s.tryAcquire(3, TimeUnit.SECONDS);
+                System.out.println("t2 acquired " + b);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        t2.start();
+
+        TimeUtil.SECOND.sleep(2);
+        System.out.println("t1 release");
+        s.release();
+
+        t2.join();
+
+    }
+
 }
