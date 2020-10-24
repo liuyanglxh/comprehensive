@@ -2,87 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61666109-a36a-4961-a459-94df1a641c89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/CompletableFuture_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/FutureTask_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/LockSupport_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReentrantLock_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ThreadLocalLeak_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ThreadPool_T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/UNSAFE_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/collection_test/ConcurrentLinkedQueue_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/forkjoin/ForkJoin_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/queue_test/BlockingQueue_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/LineUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/strategy/FlexibleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/strategy/LineupFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/strategy/TraditionalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/AbstractUserTagFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/ResourceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/Tags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserDealTagFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserPostTagFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserSpTagFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserTagFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/CarState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/CarAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/DeadAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/RunningAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/StartAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/StopAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/hadoop/Hbase_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/hadoop/Hdfs_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/DeadLock_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/Lambda_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/WeakHashMap_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hbase-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hbase/hbase-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hbase/tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jmh/JMH_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jmh/PS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/a.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Kid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Mother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyObserverble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Cry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/KidObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/MyEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Smile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLock_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLock_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/Semaphore_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/Semaphore_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/interview/I2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/interview/I2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/FrequentGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/FrequentGC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/HappyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/HappyNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/LinkReverse$LinkNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/LinkReverse$LinkNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/LinkReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/LinkReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/MincostTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/MincostTicket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/ThreadsOrderPrintThread$PrintThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/ThreadsOrderPrintThread$PrintThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/ThreadsOrderPrintThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/ThreadsOrderPrintThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/ThreeSum$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/ThreeSum$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/arithmetic/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeUtil$BaseTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeUtil$BaseTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/ConcurrentLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/ConcurrentLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/ResourceLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/ResourceLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/Semaphore_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/Semaphore_test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/CalculatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/ExcecutorCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/ExcecutorCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/ForkjoinCalculator$RecursiveCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/ForkjoinCalculator$RecursiveCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/ForkjoinCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/ForkjoinCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/LoopCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/LoopCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/ParallelCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/forkjoin/ParallelCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/interview/I1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/interview/I1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/interview/I2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/interview/I2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/FrequentGC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/FrequentGC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/GCTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/GCTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/GCTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/GCTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/JoinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/JoinTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/ParalleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/ParalleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/StackCapacity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/StackCapacity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/Volatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/jvm/Volatile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/mysql/MysqlPrimaryKey$Pojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/mysql/MysqlPrimaryKey$Pojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/mysql/MysqlPrimaryKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/mysql/MysqlPrimaryKey.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,27 +28,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
         <option value="Gradle Kotlin DSL Settings" />
-        <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -141,23 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/CompletableFuture_test.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hbase/hbase-site.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/hadoop/Hdfs_t.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/2.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hbase/tmp.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hbase-site.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/hadoop/Hbase_t.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ThreadLocalLeak_test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/forkjoin/ForkJoin_t.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/WeakHashMap_t.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/jmh/PS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/jmh/JMH_test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jmh/PS.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jmh/JMH_test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/FrequentGC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/FutureTask_t.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/DeadLock_t.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ThreadPool_T.java" />
         <option value="$PROJECT_DIR$/files/测试总结.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuyang/Summarize.java" />
@@ -192,6 +97,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserTagFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserPostTagFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Observerble.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyObserverble.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MotherSimle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MotherOnCry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/MyEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Cry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Smile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Father.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Kid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/KidObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Mother.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/KidEvent.java" />
+        <option value="$PROJECT_DIR$/shell/a.sh" />
       </list>
     </option>
   </component>
@@ -218,10 +140,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="705" />
+    <option name="height" value="701" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -231,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,56 +160,12 @@
               <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
               <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="liuyang" type="462c0819:PsiDirectoryNode" />
-              <item name="designmode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarTest.test1">
+  <component name="RunManager" selected="JUnit.MyTest.test1">
     <configuration name="AllocationYoung" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.liuyang.jvm.GCTest1" />
       <module name="comprehensive" />
@@ -334,22 +211,6 @@
       <option name="PACKAGE_NAME" value="com.liuyang.designmode.state" />
       <option name="MAIN_CLASS_NAME" value="com.liuyang.designmode.state.CarTest" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeadLock_t.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="comprehensive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuyang.jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liuyang.jvm" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.jvm.DeadLock_t" />
-      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -387,6 +248,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comprehensive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuyang.designmode.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liuyang.designmode.observer" />
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.designmode.observer.MyTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadPool_T.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comprehensive" />
       <extension name="coverage">
@@ -405,19 +282,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.AllocationYoung" />
-      <item itemvalue="JUnit.DeadLock_t.test" />
-      <item itemvalue="JUnit.ThreadPool_T.test1" />
+      <item itemvalue="JUnit.CarTest.test1" />
       <item itemvalue="JUnit.LockSupport_test.test3" />
       <item itemvalue="JUnit.LockSupport_test.test4" />
-      <item itemvalue="JUnit.CarTest.test1" />
+      <item itemvalue="JUnit.MyTest.test1" />
+      <item itemvalue="JUnit.ThreadPool_T.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test1" />
         <item itemvalue="JUnit.CarTest.test1" />
         <item itemvalue="JUnit.LockSupport_test.test4" />
         <item itemvalue="JUnit.LockSupport_test.test3" />
         <item itemvalue="JUnit.ThreadPool_T.test1" />
-        <item itemvalue="JUnit.DeadLock_t.test" />
       </list>
     </recent_temporary>
   </component>
@@ -464,21 +341,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeadLock_t_test - 2020.09.20 at 22h 01m 28s.xml">
-      <configuration name="DeadLock_t.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadPool_T_test1 - 2020.09.22 at 14h 45m 30s.xml">
-      <configuration name="ThreadPool_T.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadPool_T_test1 - 2020.09.22 at 14h 46m 04s.xml">
-      <configuration name="ThreadPool_T.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadPool_T_test1 - 2020.09.22 at 14h 46m 32s.xml">
-      <configuration name="ThreadPool_T.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadPool_T_test1 - 2020.09.22 at 14h 47m 02s.xml">
-      <configuration name="ThreadPool_T.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ThreadPool_T_test1 - 2020.09.22 at 14h 47m 51s.xml">
       <configuration name="ThreadPool_T.test1" configurationId="JUnit" />
     </history-entry>
@@ -494,12 +356,26 @@
     <history-entry file="CarTest_test1 - 2020.10.09 at 16h 33m 42s.xml">
       <configuration name="CarTest.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyTest_test1 - 2020.10.11 at 18h 52m 32s.xml">
+      <configuration name="MyTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test1 - 2020.10.11 at 18h 52m 50s.xml">
+      <configuration name="MyTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test1 - 2020.10.11 at 18h 54m 39s.xml">
+      <configuration name="MyTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test1 - 2020.10.11 at 18h 54m 50s.xml">
+      <configuration name="MyTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test1 - 2020.10.11 at 19h 05m 10s.xml">
+      <configuration name="MyTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="704" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="701" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49063033" visible="true" weight="0.22882736" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49063033" weight="0.24267101" />
       <window_info id="Structure" order="1" sideWeight="0.5093697" side_tool="true" weight="0.24511401" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -512,7 +388,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.48821548" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.48735243" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50162864" side_tool="true" weight="0.327787" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32612312" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32881355" />
@@ -562,124 +438,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
-          <folding>
-            <element signature="e#10983#10984#0" expanded="true" />
-            <element signature="e#11021#11022#0" expanded="true" />
-            <element signature="e#13575#13576#0" expanded="true" />
-            <element signature="e#13618#13619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ThreadLocalLeak_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/forkjoin/ForkjoinCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/RecursiveAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/RecursiveTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
-          <folding>
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/forkjoin/ForkJoin_t.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="235" column="68" selection-start-line="235" selection-start-column="68" selection-end-line="235" selection-end-column="68" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/WeakHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3933">
-          <caret line="239" column="11" selection-start-line="239" selection-start-column="11" selection-end-line="239" selection-end-column="11" />
-          <folding>
-            <element signature="e#9565#9566#0" expanded="true" />
-            <element signature="e#9632#9633#0" expanded="true" />
-            <element signature="e#10562#10563#0" expanded="true" />
-            <element signature="e#10615#10616#0" expanded="true" />
-            <element signature="e#15363#15364#0" expanded="true" />
-            <element signature="e#15407#15408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/jmh/JMH_test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/jmh/PS.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/jmh/JMH_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jmh/PS.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/jvm/WeakHashMap_t.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1599382501154" expanded="true" signature="539:694" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -986,10 +744,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyObserverble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MotherSimle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Smile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Cry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/MyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Kid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/KidEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/KidObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Mother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/a.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
