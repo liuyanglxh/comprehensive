@@ -3,6 +3,7 @@ package com.liuyang.concurrent;
 import com.liuyang.common.util.TimeUtil;
 import org.junit.Test;
 
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
@@ -13,7 +14,19 @@ public class ReadWriteLock_test {
 
     private ReadWriteLock lock = new ReentrantReadWriteLock();
     private Lock readLock = lock.readLock();
+    private Condition readCondition = readLock.newCondition();
     private Lock writeLock = lock.writeLock();
+    private Condition writeCondition = writeLock.newCondition();
+
+    @Test
+    public void test5() {
+        readLock.lock();
+        try {
+            Condition readCondition = readLock.newCondition();
+        } finally {
+            readLock.unlock();
+        }
+    }
 
     @Test
     public void test() {

@@ -1,34 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="61666109-a36a-4961-a459-94df1a641c89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shell/a.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Kid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Mother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyObserverble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Cry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/KidObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/MyEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Smile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/Concurrent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/MethodHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/mergeKLists/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/mergeKLists/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/collection/queue/deque/Deque_t.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/common/Test_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/common/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ForkJoinPool_t.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLockQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/StampedLock_t.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/BackGround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Niu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/PointGuard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/ScoreGuarde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Sichuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Test_b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/visitor/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/forjob/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/AIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/BIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/NIOSelectorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/endecode/EDClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/endecode/EDServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/pojo/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/ClientEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/SSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/SSServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/ServerDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/util/ProtoStuffUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/CycleJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/ThreadLocalLeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/RocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/broadcast/BroadcastConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/broadcast/BroadcastProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/filter/FilterConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/filter/FilterProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/order/OrderedConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/order/OrderedProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/pull/PullConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/retry/RetryConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/retry/RetryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/rockemq最佳实践" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/scheduled/ScheduledMessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/scheduled/ScheduledMessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/simple/AsyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/simple/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/simple/SyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/transaction/TransactionConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/transaction/TransactionListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/transaction/TransactionProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLock_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLock_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/comprehensive.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/ReadWriteLock_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/ReadWriteLock_test.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/StampedLock_t.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLock_test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="method#test5#0;class#ReadWriteLock_test#0" />
+                <element signature="method#test#0;class#ReadWriteLock_test#0" />
+                <element signature="method#test2#0;class#ReadWriteLock_test#0" />
+                <element signature="method#test4#0;class#ReadWriteLock_test#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLockQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1526#1527#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1064">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,8 +152,9 @@
         <option value="Singleton" />
         <option value="Gradle Kotlin DSL Settings" />
         <option value="Enum" />
-        <option value="package-info" />
         <option value="Interface" />
+        <option value="package-info" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -54,41 +171,28 @@
       <find>dataDir</find>
       <find>datad</find>
       <find>zookeeper.znode.parent</find>
+      <find>*</find>
+      <find>*</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/channels/spi/SelectorProvider.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/CountedCompleter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/DefaultSelectorProvider.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueSelectorProvider.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0-sources.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/channels/Selector.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ThreadPool_T.java" />
-        <option value="$PROJECT_DIR$/files/测试总结.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/Summarize.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/LockSupport_test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/CarAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/RunningAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/DeadAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/CarState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/CarTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/CarAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/StopAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/StartAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/DeadAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/RunningAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/strategy/LineUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/LineUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/strategy/TraditionalFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/strategy/SmallFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/strategy/AbstractLineupFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/strategy/LineupFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/strategy/FlexibleFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/UserTagFactory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/ResourceType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserDealTagFactory.java" />
@@ -114,14 +218,40 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/Mother.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/KidEvent.java" />
         <option value="$PROJECT_DIR$/shell/a.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/visitor/Computor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/visitor/AbstractComputorPart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/sort/RadixSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/collection/queue/deque/Deque_t.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/BackGround.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/ScoreGuide.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/PointGuard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Sichuan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Test_b.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/visitor/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Niu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/mergeKLists/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/mergeKLists/Solution1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/mergeKLists/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/forjob/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ForkJoinPool_t.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/StampedLock_t.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLock_test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/DemoQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLockQueue.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/Desktop/setting/dm_home/settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -140,11 +270,15 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="701" />
   </component>
+  <component name="ProjectId" id="1ljM2ul0pmkmyMM3FYmFQTyys1Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -153,6 +287,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,38 +296,72 @@
               <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
               <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comprehensive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liuyang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/liuyang/designmode" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/liuyang/common" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test1">
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="buf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProtoStuffUtil">
     <configuration name="AllocationYoung" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.liuyang.jvm.GCTest1" />
       <module name="comprehensive" />
@@ -200,104 +370,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EDClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.endecode.EDClient" />
       <module name="comprehensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuyang.designmode.state.*" />
+          <option name="PATTERN" value="com.liuyang.io.netty.endecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuyang.designmode.state" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.designmode.state.CarTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupport_test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EDServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.endecode.EDServer" />
       <module name="comprehensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuyang.concurrent.*" />
+          <option name="PATTERN" value="com.liuyang.io.netty.endecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuyang.concurrent" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.concurrent.LockSupport_test" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupport_test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProtoStuffUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.util.ProtoStuffUtil" />
       <module name="comprehensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuyang.concurrent.*" />
+          <option name="PATTERN" value="com.liuyang.io.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuyang.concurrent" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.concurrent.LockSupport_test" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SSClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.split.SSClient" />
       <module name="comprehensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuyang.designmode.observer.*" />
+          <option name="PATTERN" value="com.liuyang.io.netty.split.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuyang.designmode.observer" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.designmode.observer.MyTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPool_T.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SSServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.split.SSServer" />
       <module name="comprehensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuyang.concurrent.*" />
+          <option name="PATTERN" value="com.liuyang.io.netty.split.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuyang.concurrent" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.concurrent.ThreadPool_T" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.AllocationYoung" />
-      <item itemvalue="JUnit.CarTest.test1" />
-      <item itemvalue="JUnit.LockSupport_test.test3" />
-      <item itemvalue="JUnit.LockSupport_test.test4" />
-      <item itemvalue="JUnit.MyTest.test1" />
-      <item itemvalue="JUnit.ThreadPool_T.test1" />
+      <item itemvalue="Application.EDServer" />
+      <item itemvalue="Application.EDClient" />
+      <item itemvalue="Application.SSClient" />
+      <item itemvalue="Application.SSServer" />
+      <item itemvalue="Application.ProtoStuffUtil" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest.test1" />
-        <item itemvalue="JUnit.CarTest.test1" />
-        <item itemvalue="JUnit.LockSupport_test.test4" />
-        <item itemvalue="JUnit.LockSupport_test.test3" />
-        <item itemvalue="JUnit.ThreadPool_T.test1" />
+        <item itemvalue="Application.ProtoStuffUtil" />
+        <item itemvalue="Application.SSClient" />
+        <item itemvalue="Application.SSServer" />
+        <item itemvalue="Application.EDClient" />
+        <item itemvalue="Application.EDServer" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -341,41 +497,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreadPool_T_test1 - 2020.09.22 at 14h 47m 51s.xml">
-      <configuration name="ThreadPool_T.test1" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test3 - 2020.12.03 at 18h 30m 50s.xml">
+      <configuration name="StampedLock_t.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadPool_T_test1 - 2020.09.22 at 14h 48m 31s.xml">
-      <configuration name="ThreadPool_T.test1" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test3 - 2020.12.03 at 18h 31m 29s.xml">
+      <configuration name="StampedLock_t.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockSupport_test_test3 - 2020.09.24 at 20h 57m 23s.xml">
-      <configuration name="LockSupport_test.test3" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test - 2020.12.03 at 20h 34m 13s.xml">
+      <configuration name="StampedLock_t.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockSupport_test_test4 - 2020.09.24 at 20h 58m 57s.xml">
-      <configuration name="LockSupport_test.test4" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test - 2020.12.03 at 20h 35m 19s.xml">
+      <configuration name="StampedLock_t.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CarTest_test1 - 2020.10.09 at 16h 33m 42s.xml">
-      <configuration name="CarTest.test1" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test - 2020.12.03 at 20h 35m 57s.xml">
+      <configuration name="StampedLock_t.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test1 - 2020.10.11 at 18h 52m 32s.xml">
-      <configuration name="MyTest.test1" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test - 2020.12.03 at 20h 37m 30s.xml">
+      <configuration name="StampedLock_t.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test1 - 2020.10.11 at 18h 52m 50s.xml">
-      <configuration name="MyTest.test1" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test - 2020.12.03 at 20h 38m 13s.xml">
+      <configuration name="StampedLock_t.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test1 - 2020.10.11 at 18h 54m 39s.xml">
-      <configuration name="MyTest.test1" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test - 2020.12.03 at 20h 39m 17s.xml">
+      <configuration name="StampedLock_t.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test1 - 2020.10.11 at 18h 54m 50s.xml">
-      <configuration name="MyTest.test1" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test - 2020.12.03 at 20h 39m 41s.xml">
+      <configuration name="StampedLock_t.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test1 - 2020.10.11 at 19h 05m 10s.xml">
-      <configuration name="MyTest.test1" configurationId="JUnit" />
+    <history-entry file="StampedLock_t_test - 2020.12.03 at 20h 39m 59s.xml">
+      <configuration name="StampedLock_t.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="701" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="701" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49063033" weight="0.24267101" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49063033" weight="0.252443" />
       <window_info id="Structure" order="1" sideWeight="0.5093697" side_tool="true" weight="0.24511401" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -383,12 +540,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" weight="0.41355932" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.57237935" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5711864" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.48735243" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4864407" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50162864" side_tool="true" weight="0.327787" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32612312" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32881355" />
@@ -404,12 +561,38 @@
     <MESSAGE value="新增几个solution" />
     <option name="LAST_COMMIT_MESSAGE" value="新增几个solution" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0-sources.jar!/org/apache/rocketmq/client/impl/consumer/PullAPIWrapper.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>mode=10000000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mode ==10000000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a&lt;0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>a == -1</expression-string>
         <language-id>JAVA</language-id>
@@ -438,334 +621,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/ThreadGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="675" column="23" selection-start-line="675" selection-start-column="23" selection-end-line="675" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="611" column="30" lean-forward="true" selection-start-line="611" selection-start-column="30" selection-end-line="611" selection-end-column="30" />
-          <folding>
-            <element signature="e#15215#15216#0" expanded="true" />
-            <element signature="e#15264#15265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/FutureTask_t.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/jvm/FrequentGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="1235" column="38" selection-start-line="1235" selection-start-column="30" selection-end-line="1235" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/测试总结.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/Summarize.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ThreadPool_T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/jvm/DeadLock_t.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/LockSupport_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/StopAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/StartAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/RunningAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/CarAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/position/Center.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/strategy/LineupFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/strategy/TraditionalFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/strategy/FlexibleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/actions/DeadAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/Tags.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/ResourceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserDealTagFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserSpTagFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/CarState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/AbstractUserTagFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserTagFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/tag/UserPostTagFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/abstractfactory/basketball/LineUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/state/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MyObserverble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/MotherSimle.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/observer/event/Smile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -872,6 +727,343 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/visitor/Computor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/visitor/AbstractCustomer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/visitor/AbstractComputorPart.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="109" column="20" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/sort/RadixSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sort#0;class#RadixSort#0" />
+            <element signature="method#isSorted#0;class#RadixSort#0" />
+            <element signature="method#isSorted#1;class#RadixSort#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="324" column="13" selection-start-line="324" selection-start-column="13" selection-end-line="324" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="514" column="6" selection-start-line="514" selection-start-column="6" selection-end-line="514" selection-end-column="6" />
+          <folding>
+            <element signature="docComment;class#Deque#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/collection/queue/deque/Deque_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/PointGuard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/visitor/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/ScoreGuarde.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Sichuan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/BackGround.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Niu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1196" column="11" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/mergeKLists/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/mergeKLists/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="51" selection-start-line="8" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Test_b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/forjob/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="1597" column="51" selection-start-line="1597" selection-start-column="51" selection-end-line="1597" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="685" column="39" lean-forward="true" selection-start-line="685" selection-start-column="39" selection-end-line="685" selection-end-column="39" />
+          <folding>
+            <element signature="e#4308#4309#0" expanded="true" />
+            <element signature="e#4360#4361#0" expanded="true" />
+            <element signature="e#13000#13001#0" expanded="true" />
+            <element signature="e#13056#13057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="137" column="47" lean-forward="true" selection-start-line="137" selection-start-column="47" selection-end-line="137" selection-end-column="47" />
+          <folding>
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
+            <element signature="e#12210#12211#0" expanded="true" />
+            <element signature="e#12258#12259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ForkJoinPool_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/StampedLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="349" column="16" selection-start-line="349" selection-start-column="16" selection-end-line="349" selection-end-column="16" />
+          <folding>
+            <element signature="e#14032#14033#0" expanded="true" />
+            <element signature="e#14062#14063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="325" column="19" selection-start-line="325" selection-start-column="19" selection-end-line="325" selection-end-column="19" />
+          <folding>
+            <element signature="e#10037#10038#0" expanded="true" />
+            <element signature="e#10084#10085#0" expanded="true" />
+            <element signature="e#11364#11365#0" expanded="true" />
+            <element signature="e#11395#11396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="355" column="14" selection-start-line="355" selection-start-column="14" selection-end-line="355" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="1176" column="25" selection-start-line="1176" selection-start-column="25" selection-end-line="1176" selection-end-column="25" />
+          <folding>
+            <element signature="e#26818#26819#0" expanded="true" />
+            <element signature="e#26858#26859#0" expanded="true" />
+            <element signature="e#33790#33791#0" expanded="true" />
+            <element signature="e#33855#33856#0" expanded="true" />
+            <element signature="e#45539#45540#0" expanded="true" />
+            <element signature="e#45589#45590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/StampedLock_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLock_test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="method#test5#0;class#ReadWriteLock_test#0" />
+            <element signature="method#test#0;class#ReadWriteLock_test#0" />
+            <element signature="method#test2#0;class#ReadWriteLock_test#0" />
+            <element signature="method#test4#0;class#ReadWriteLock_test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLockQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1526#1527#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
