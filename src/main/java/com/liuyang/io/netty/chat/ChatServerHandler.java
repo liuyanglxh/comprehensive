@@ -23,8 +23,9 @@ public class ChatServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
+        Channel channel = ctx.channel();
         ByteBuf buf = (ByteBuf) msg;
-        String message = "【" + ctx.channel().remoteAddress() + "】：" + buf.toString(CharsetUtil.UTF_8);
+        String message = "【" + channel.remoteAddress() + "】：" + buf.toString(CharsetUtil.UTF_8);
         sendToClients(ctx, message);
     }
 

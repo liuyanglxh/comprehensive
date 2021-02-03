@@ -7,12 +7,13 @@ import io.netty.channel.ChannelOption;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.util.concurrent.DefaultThreadFactory;
 
 public class ChatServer {
 
     public static void main(String[] args) {
-        NioEventLoopGroup bossGroup = new NioEventLoopGroup(1);
-        NioEventLoopGroup workerGroup = new NioEventLoopGroup(1);
+        NioEventLoopGroup bossGroup = new NioEventLoopGroup(1, new DefaultThreadFactory("boss"));
+        NioEventLoopGroup workerGroup = new NioEventLoopGroup(1, new DefaultThreadFactory("worker"));
 
         try {
             ServerBootstrap bootstrap = new ServerBootstrap();

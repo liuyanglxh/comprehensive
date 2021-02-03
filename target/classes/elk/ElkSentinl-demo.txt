@@ -1,0 +1,90 @@
+{
+  "actions": {
+    "Webhook_683bd385-186b3-46ba-8e1b-f89cccccbbec": {
+      "name": "推荐服务错误警告",
+      "throttle_period": "0m",
+      "webhook": {
+        "priority": "high",
+        "stateless": false,
+        "method": "POST",
+        "host": "oapi.dingtalk.com",
+        "port": "443",
+        "path": "/robot/send?access_token=ecc25f4e1ab13cf84cb36e6b57650820cc3bc91f6586159733bed4325b8a925e",
+        "body": "{\"msgtype\":\"link\",\"link\":{\"title\":\" recommend-service最近15分钟报错:【{{payload.hits.total}}】次！\",\"text\":\"{{payload.aggregations.min_time.value_as_string}} ~ {{payload.aggregations.max_time.value_as_string}}\",\"picUrl\":\"https://fsvrugccache.dealmoon.com/ugc/30b/65d/511/b48b92db91695790ae3d3d6.jpeg\",\"messageUrl\":\"http://elk.aws.dealmoon.net/app/kibana#/discover/1f901d60-1436-11eb-a507-215d87f35d1a?_g=()\"}}",
+        "params": {
+          "watcher": "{{watcher.title}}",
+          "payload_count": "{{payload.hits.total}}"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "use_https": true
+      }
+    }
+  },
+  "input": {
+    "search": {
+      "request": {
+        "index": [
+          "java_log-*"
+        ],
+        "body": {
+          "query": {
+            "bool": {
+              "must": [
+                {
+                  "match": {
+                    "level": "error"
+                  }
+                },
+                {
+                  "match": {
+                    "iv_method": "apiService-recommendV1"
+                  }
+                },
+                {
+                  "range": {
+                    "@timestamp": {
+                      "gte": "now-15m",
+                      "lte": "now",
+                      "format": "epoch_millis"
+                    }
+                  }
+                }
+              ],
+              "must_not": []
+            }
+          },
+          "aggs": {
+            "max_time": {
+              "max": {
+                "field": "@timestamp"
+              }
+            },
+            "min_time": {
+              "min": {
+                "field": "@timestamp"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "condition": {
+    "script": {
+      "script": "payload.hits.total >=1"
+    }
+  },
+  "trigger": {
+    "schedule": {
+      "later": "every 10 minutes"
+    }
+  },
+  "disable": false,
+  "report": false,
+  "title": "RECOMMEND/推荐服务错误警告",
+  "save_payload": false,
+  "spy": true,
+  "impersonate": false
+}
