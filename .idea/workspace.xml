@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61666109-a36a-4961-a459-94df1a641c89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/Test_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/thread/NioEventLoopGroupThreadFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,38 +310,6 @@
     <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.chat.ChatServer" />
       <module name="comprehensive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuyang.io.netty.chat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProtoStuffUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.util.ProtoStuffUtil" />
-      <module name="comprehensive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuyang.io.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SSServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.split.SSServer" />
-      <module name="comprehensive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuyang.io.netty.split.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -366,8 +332,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.AllocationYoung" />
-      <item itemvalue="Application.SSServer" />
-      <item itemvalue="Application.ProtoStuffUtil" />
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.ChatClient" />
       <item itemvalue="JUnit.Test_1.test1" />
@@ -375,10 +339,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.ChatServer" />
         <item itemvalue="JUnit.Test_1.test1" />
-        <item itemvalue="Application.SSServer" />
-        <item itemvalue="Application.ProtoStuffUtil" />
+        <item itemvalue="Application.ChatServer" />
       </list>
     </recent_temporary>
   </component>
@@ -499,9 +461,19 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Thread.java</url>
-          <line>348</line>
-          <option name="timeStamp" value="44" />
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.58.Final/netty-all-4.1.58.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java</url>
+          <line>412</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.58.Final/netty-all-4.1.58.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.58.Final/netty-all-4.1.58.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java</url>
+          <line>654</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

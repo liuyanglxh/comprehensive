@@ -12,6 +12,12 @@ import org.jboss.netty.util.CharsetUtil;
 
 import java.util.Scanner;
 
+/**
+ * OP_READ:1
+ * OP_WRITE:4
+ * OP_CONNECT:8
+ * OP_ACCEPT:16
+ */
 public class ChatClient {
 
     public static void main(String[] args) {
