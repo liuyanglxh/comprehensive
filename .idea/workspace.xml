@@ -5,83 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61666109-a36a-4961-a459-94df1a641c89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/Concurrent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/MethodHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/mergeKLists/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/mergeKLists/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/arithmetic/sort/RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/collection/queue/deque/Deque_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/common/Test_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/common/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ForkJoinPool_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLockQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/lock_t/StampedLock_t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/BackGround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Niu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/PointGuard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/ScoreGuarde.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Sichuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/Test_b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/bridge/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/designmode/visitor/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/forjob/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/AIODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/BIODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/NIOSelectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/endecode/EDClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/endecode/EDServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/pojo/Protocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/ClientEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/SSClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/SSServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/ServerDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/split/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/util/ProtoStuffUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/CycleJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/ThreadLocalLeak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/CommonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/RocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/broadcast/BroadcastConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/broadcast/BroadcastProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/filter/FilterConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/filter/FilterProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/order/OrderedConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/order/OrderedProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/pull/PullConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/retry/RetryConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/retry/RetryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/rockemq最佳实践" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/scheduled/ScheduledMessageConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/scheduled/ScheduledMessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/simple/AsyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/simple/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/simple/SyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/transaction/TransactionConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/transaction/TransactionListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/transaction/TransactionProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/elk/ElkSentinl-demo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLock_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/ReadWriteLock_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/comprehensive.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/ReadWriteLock_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/ReadWriteLock_test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +286,7 @@
       <recent name="buf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProtoStuffUtil">
+  <component name="RunManager" selected="Application.SSServer">
     <configuration name="AllocationYoung" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.liuyang.jvm.GCTest1" />
       <module name="comprehensive" />
@@ -370,12 +295,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EDClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.endecode.EDClient" />
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.chat.ChatClient" />
       <module name="comprehensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuyang.io.netty.endecode.*" />
+          <option name="PATTERN" value="com.liuyang.io.netty.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,12 +308,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EDServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.endecode.EDServer" />
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.chat.ChatServer" />
       <module name="comprehensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuyang.io.netty.endecode.*" />
+          <option name="PATTERN" value="com.liuyang.io.netty.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,19 +362,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.AllocationYoung" />
-      <item itemvalue="Application.EDServer" />
-      <item itemvalue="Application.EDClient" />
       <item itemvalue="Application.SSClient" />
       <item itemvalue="Application.SSServer" />
       <item itemvalue="Application.ProtoStuffUtil" />
+      <item itemvalue="Application.ChatServer" />
+      <item itemvalue="Application.ChatClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SSServer" />
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.ProtoStuffUtil" />
         <item itemvalue="Application.SSClient" />
-        <item itemvalue="Application.SSServer" />
-        <item itemvalue="Application.EDClient" />
-        <item itemvalue="Application.EDServer" />
       </list>
     </recent_temporary>
   </component>
