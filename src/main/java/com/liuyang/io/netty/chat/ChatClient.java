@@ -35,24 +35,28 @@ public class ChatClient {
                     });
             System.out.println("netty client start");
             ChannelFuture cf = bootstrap.connect("127.0.0.1", 9000).sync();
-            new Thread(() -> {
-                while (true) {
-                    Scanner sc = new Scanner(System.in);
-                    while (sc.hasNext()) {
-                        String str = sc.next();
-                        try {
-                            ByteBuf buf = Unpooled.copiedBuffer(str, CharsetUtil.UTF_8);
-                            ChannelFuture f = cf.channel().writeAndFlush(buf).sync();
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-
-                    }
-                }
-            }).start();
+            initScan(cf);
             cf.channel().closeFuture().sync();
         } catch (Exception e) {
             group.shutdownGracefully();
         }
+    }
+
+    private static void initScan(ChannelFuture cf) {
+        new Thread(() -> {
+            while (true) {
+                Scanner sc = new Scanner(System.in);
+                while (sc.hasNext()) {
+                    String str = sc.next();
+                    try {
+                        ByteBuf buf = Unpooled.copiedBuffer(str, CharsetUtil.UTF_8);
+                        cf.channel().writeAndFlush(buf).sync();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }
+        }).start();
     }
 }

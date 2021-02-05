@@ -12,13 +12,16 @@ import io.netty.util.concurrent.DefaultThreadFactory;
 public class ChatServer {
 
     public static void main(String[] args) {
-        NioEventLoopGroup bossGroup = new NioEventLoopGroup(1, new DefaultThreadFactory("boss"));
-        NioEventLoopGroup workerGroup = new NioEventLoopGroup(1, new DefaultThreadFactory("worker"));
+        NioEventLoopGroup main = new NioEventLoopGroup(1, new DefaultThreadFactory("main"));
+        NioEventLoopGroup sub = new NioEventLoopGroup(1, new DefaultThreadFactory("sub"));
 
         try {
             ServerBootstrap bootstrap = new ServerBootstrap();
-            bootstrap.group(bossGroup, workerGroup)
+            bootstrap.group(main, sub)
                     .channel(NioServerSocketChannel.class)
+                    /*
+                     *  配置好各种参数，可以大幅提升性能
+                     */
                     .option(ChannelOption.SO_BACKLOG, 1024)
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
@@ -31,8 +34,8 @@ public class ChatServer {
             cf.channel().closeFuture().sync();
         } catch (Exception e) {
             e.printStackTrace();
-            bossGroup.shutdownGracefully();
-            workerGroup.shutdownGracefully();
+            main.shutdownGracefully();
+            sub.shutdownGracefully();
         }
     }
 }
