@@ -15,13 +15,11 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class ChatServerHandler extends ChannelInboundHandlerAdapter {
 
-    //    private static final Map<String, Channel> clients = new ConcurrentHashMap<>();
     private static ChannelGroup channelGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
         String message = "【" + ctx.channel().remoteAddress() + "】 加入聊天室";
-//        clients.put(ctx.channel().remoteAddress().toString(), ctx.channel());
         channelGroup.add(ctx.channel());
         sendToClients(ctx, message);
     }
@@ -52,7 +50,6 @@ public class ChatServerHandler extends ChannelInboundHandlerAdapter {
 
     private void clientExit(ChannelHandlerContext ctx) {
         sendToClients(ctx, ctx.channel().remoteAddress() + " 退出聊天室");
-//        clients.remove(ctx.channel().remoteAddress().toString());
         channelGroup.remove(ctx.channel());
         ctx.close();
     }

@@ -9,10 +9,6 @@ public class Test_1 {
 
     @Test
     public void test1() throws IllegalAccessException {
-        Field[] fields = SelectionKey.class.getDeclaredFields();
-        for (Field field : fields) {
-            field.setAccessible(true);
-            System.out.println(field.getName()+":"+field.get(SelectionKey.class));
-        }
+        System.out.println(1 << 15 | 1 << 16);
     }
 }
