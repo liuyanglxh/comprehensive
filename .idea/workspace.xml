@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61666109-a36a-4961-a459-94df1a641c89" name="Default Changelist" comment="">
+    <list default="true" id="61666109-a36a-4961-a459-94df1a641c89" name="Default Changelist" comment="新增几个solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/G1Logs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/jvm/PerformanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/io/NIOSelectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/NIOSelectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/Test_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/Test_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/io/netty/chat/ChatServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/Test_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/Test_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/io/netty/chat/ChatServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/rocketmq/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/rocketmq/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/rocketmq/Common.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +295,7 @@
       <recent name="$PROJECT_DIR$/files/html/keep" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test_1.test1">
+  <component name="RunManager" selected="Application.G1Logs">
     <configuration name="AllocationYoung" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.liuyang.jvm.GCTest1" />
       <module name="comprehensive" />
@@ -320,16 +318,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="G1Logs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.jvm.G1Logs" />
+      <module name="comprehensive" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails -XX:+UseG1GC -Xmx200m " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Common.createTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comprehensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuyang.io.netty.*" />
+          <option name="PATTERN" value="com.liuyang.rocketmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuyang.io.netty" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.Test_1" />
+      <option name="PACKAGE_NAME" value="com.liuyang.rocketmq" />
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.rocketmq.Common" />
+      <option name="METHOD_NAME" value="createTopic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerformanceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comprehensive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuyang.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liuyang.jvm" />
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.jvm.PerformanceTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -340,13 +362,17 @@
       <item itemvalue="Application.AllocationYoung" />
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.ChatClient" />
-      <item itemvalue="JUnit.Test_1.test1" />
+      <item itemvalue="Application.G1Logs" />
+      <item itemvalue="JUnit.PerformanceTest.test1" />
+      <item itemvalue="JUnit.Common.createTopic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_1.test1" />
+        <item itemvalue="Application.G1Logs" />
+        <item itemvalue="JUnit.Common.createTopic" />
         <item itemvalue="Application.ChatClient" />
         <item itemvalue="Application.ChatServer" />
+        <item itemvalue="JUnit.PerformanceTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -470,6 +496,11 @@
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.58.Final/netty-all-4.1.58.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java</url>
           <line>222</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.58.Final/netty-all-4.1.58.Final-sources.jar!/io/netty/channel/nio/SelectedSelectionKeySet.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
