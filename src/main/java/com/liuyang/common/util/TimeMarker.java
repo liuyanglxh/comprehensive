@@ -28,7 +28,7 @@ public class TimeMarker {
         }
 
         Node prev = holder.peek();
-        if (prev != null && !prev.method.equals(node.method)) {
+        if (prev != null) {
             prev.addSub(node);
         }
 
@@ -54,11 +54,9 @@ public class TimeMarker {
         long startTime = System.currentTimeMillis();
         long endTime;
         List<Node> subNodes;
-        String method;
 
         Node(String info) {
             this.info = info;
-            method = Thread.currentThread().getStackTrace()[3].toString();
         }
 
         void stop() {
