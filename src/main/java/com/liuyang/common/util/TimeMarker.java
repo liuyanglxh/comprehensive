@@ -19,6 +19,10 @@ public class TimeMarker {
 
     private static final ThreadLocal<Stack> HOLDERS = new ThreadLocal<>();
 
+    public static void clear() {
+        HOLDERS.remove();
+    }
+
     public static void mark(String info) {
         Node node = new Node(info);
         Stack holder = HOLDERS.get();

@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61666109-a36a-4961-a459-94df1a641c89" name="Default Changelist" comment="新增几个solution">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/common/util/TimeMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/common/util/TimeMarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$CostInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$CostInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/collection_test/ConcurrentLinkedQueue_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/collection_test/ConcurrentLinkedQueue_test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
