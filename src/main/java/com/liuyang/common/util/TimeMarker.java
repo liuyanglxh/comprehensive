@@ -43,7 +43,8 @@ public class TimeMarker {
         Node peek = holder.peek();
         //说明是最后一个节点了，则输出信息
         if (peek == null) {
-            logger.info(JSONObject.toJSONString(node.getCostInfo()));
+            String info = JSONObject.toJSONString(node.getCostInfo());
+            logger.info(info);
         }
     }
 

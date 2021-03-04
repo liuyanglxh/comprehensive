@@ -7,7 +7,10 @@
     <list default="true" id="61666109-a36a-4961-a459-94df1a641c89" name="Default Changelist" comment="新增几个solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/common/util/TimeMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/common/util/TimeMarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/collection_test/ConcurrentLinkedQueue_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyang/concurrent/collection_test/ConcurrentLinkedQueue_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$CostInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$CostInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker$Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/common/util/TimeMarker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/collection_test/ConcurrentLinkedQueue_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyang/concurrent/collection_test/ConcurrentLinkedQueue_test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -294,7 +297,7 @@
       <recent name="$PROJECT_DIR$/files/html/keep" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConcurrentLinkedQueue_test.test">
+  <component name="RunManager" selected="Application.TimeMarker">
     <configuration name="AllocationYoung" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.liuyang.jvm.GCTest1" />
       <module name="comprehensive" />
@@ -310,17 +313,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuyang.io.netty.chat.ChatServer" />
-      <module name="comprehensive" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="G1Logs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liuyang.jvm.G1Logs" />
       <module name="comprehensive" />
       <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails -XX:+UseG1GC -Xmx200m " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeMarker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuyang.common.util.TimeMarker" />
+      <module name="comprehensive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuyang.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -359,19 +368,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.AllocationYoung" />
-      <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.G1Logs" />
       <item itemvalue="JUnit.Common.createTopic" />
       <item itemvalue="JUnit.ConcurrentLinkedQueue_test.test" />
+      <item itemvalue="Application.TimeMarker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeMarker" />
         <item itemvalue="JUnit.ConcurrentLinkedQueue_test.test" />
         <item itemvalue="Application.G1Logs" />
         <item itemvalue="JUnit.Common.createTopic" />
         <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.ChatServer" />
       </list>
     </recent_temporary>
   </component>
